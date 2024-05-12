@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css">
+    <style>
+        .dong2{
+        background-color: #f5f5f5;
+        padding-left: 45px;
+        }
+        .item{
+            display:inline-block;
+            width:80px;
+            height: 40px;
+            line-height: 40px;
+        }
+        .item a{
+            text-decoration: none;
+            color:#686f7a;
+            font-size: 12px;
+            font-weight: 400;
+            cursor: pointer;
+        }
+        .item a:hover{
+            text-decoration: underline;}
+            #poster{
+            border: 1px solid #e7e7e7;
+            border-radius: 50%;
+            max-width: 36px;
+        }
+        .main-page{
+            padding-left: 25px;
+            width: 100%;
+            margin: 0 auto;
+            background-color: #eceef3;
+        }
+        .containt{
+        padding-top: 25px;
+        padding-bottom:15px;
+        }
+        .c1{  
+            margin: 1px 35px;
+            background-color: white; 
+            width:1290px;
+            padding:25px 70px;
+        
+        }
+        .c1 li{
+            width:550px;
+            line-height: 45px;
+            display:inline-block;
+            vertical-align: top;
+        }
+        .c1 a{
+            text-decoration: none;
+            color:black;
+        }
+        
+        #anh{
+            height:350px;
+            width:450px;
+            border-bottom: 1px solid rgb(161, 146, 146);
+            padding:25px 25px;
+        }
+        .c1 button a{
+            color:white ;
+            font-size: .85rem;
+        }
+        .c1 button{
+            background-color: #007bff;
+            border-style: none;
+            padding:10px;
+            border-radius: 5px;
+        }
+        .nd-lq{display: flex;}
+        .nd-lq  li {
+        display: block;
+        list-style-type: none;
+        font-size: 10px;
+        width:auto;
+        height:100px;
+        line-height: 25px;
+        padding: 15px 0;
+        border-bottom: 1px solid #ddd;
+        }
+    
+        .nd-lq a{
+            text-decoration: none;
+            color:#000;
+        }
+        #anh1{
+            width:85px;
+        }
+        #poster1{
+            border: 1px solid #e7e7e7;
+            border-radius: 50%;
+            max-width: 20px;
+        }
+        .lienquan h4{
+            font-size: 20px;
+            padding:15px;
+            background-color: #c4423e;
+            color:white;
+            font-weight: 100;
+  
+        }
+        .lienquan{
+            margin: 45px 0;
+            background-color: white;
+            border:1px solid rgb(209, 205, 205);
+            width:450px;
+            
+        }
+        .lienquan1{
+            padding:15px;
+            list-style-type: none;
+        }
+    </style>
+    <script>
+  
+        function increaseQuantity(btn) {
+            var input = btn.parentNode.querySelector('.qty-input');
+            input.value = parseInt(input.value) + 1;
+        }
+    
+
+        function decreaseQuantity(btn) {
+            var input = btn.parentNode.querySelector('.qty-input');
+      
+            if (parseInt(input.value) > 1) {
+                input.value = parseInt(input.value) - 1;
+            }
+        }
+    </script>
+    
+</head>
+<body>
+    <div class="main">
+    <div id="header">
+        <img src="https://mclass.vn/mclass/images/mclass_logo_land_trans_2023.png" alt="" style="width: 90px;height: 45px;">
+        <div class="header-menu">
+            <p id="course-books"><a href="">Khóa học & sách</a></p>
+            <ul class="sub-header-menu" >
+                <li><a href="">KHÓA 2K6 - LUYỆN THI THPT QG 2024</a>
+                    <ul class="sub-header-menu1">
+                        <li>
+                       <a href="">LIVE C - Luyện Thi Chuyên Đề</a>
+                        <a href="">LIVE T - Luyện Đề</a>
+                        <a href="">LIVE G - Tổng Ôn</a></li>
+                    </ul>
+                </li>
+                <li><a href="">KHÓA ĐÁNH GIÁ NĂNG LỰC 2K6</a>
+                    <ul class="sub-header-menu1"><li>
+                        <a href="">Đánh giá năng lực ĐHQGHN</a>
+                        <a href="">Đánh giá năng lực ĐHQG TP Hồ Chí Minh</a></li>
+                    </ul>
+                </li>
+                <li><a href="">Chinh Phục lớp 11</a>
+                    <ul class="sub-header-menu1"><li>
+                        <a href="">Toán - Thầy Trần Lâm</a>
+                        <a href="">Vật Lý - Thầy Kiêu</a>
+                        <a href="">Hóa - Thầy Ngọc</a>
+                        <a href="">Ngữ Văn - Cố Bình</a>
+                        <a href="">Toán - Thầy Hồ Đức Thuận</a>
+                        <a href="">Vật Lý - Thầy Vũ Tuấn Anh</a>
+                        <a href="">Hóa -  thầy Phạm Văn Thuận</a></li>
+                    </ul></li>
+                    <li><a href="">Chinh Phục lớp 10</a>
+                    <ul class="sub-header-menu1"><li>
+                       <a href="">Toán</a>
+                       <a href="">Ngữ Văn - Cô Bình</a>
+                       <a href="">Hóa Học - Cô Hằng</a></li>
+                    </ul></li>
+                    <li><a href="">Bậc Đại Học</a>
+                    <ul class="sub-header-menu1"><li>
+                        <a href="">PRE TOEIC</a>
+                        <a href="">VẬT LÝ ĐẠI CƯƠNG</a>
+                        <a href="">TOÁN CAO CẤP</a></li>
+                    </ul></li>
+                    <li><a href="">IELTS</a>
+                    <ul class="sub-header-menu1"><li>
+                        <a href="">Khóa LIVE</a>
+                        <a href="">Khóa IELTS CLC</a></li>
+                    </ul></li>
+            </ul>
+        </div>
+        <div class="search-container">
+            <input type="text" placeholder="Tìm kiếm khóa học">
+            <button type="submit">
+                <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/>
+                </svg>
+            </button>
+        </div>
+        <div class="button">
+        <button class="login-button">Đăng nhập</button>
+        <button class="register-button">Đăng ký</button></div>
+    </div>
+    <div class="dong2">
+        <ul>
+            <li class="item"><a href="">Trang chủ</a></li>
+        </ul>
+    </div>
+    <div class="main-page">
+        <div class="containt">
+            <ul class="c1">
+                <li><img id="anh" src="https://d3484gt1o8rlzm.cloudfront.net/mclass/books/book_CBS41667989721.png" alt=""></li>
+                <li style="padding-left: 25px;padding-top: 15px;"><h2 style="color:#c4423e">COMBO SÁCH 3 MÔN BẤT KỲ</h2>
+                <span style="color: #c4423e;">Giá: 350,000đ</span>
+                <br><span>Tác giả: MCLASS</span>
+                <br><span>Tình Trạng: Hết Hàng</span>
+                    <div class="quantity">
+                        <span>Số Lượng</span>
+                        <button class="minus-btn" onclick="decreaseQuantity(this)" style="background-color: white;font-size: 25px;"><strong>-</strong></button>
+                        <input type="text" class="qty-input" style="width:25px;padding: 5px;" value="1">
+                        <button class="plus-btn" onclick="increaseQuantity(this)" style="background-color: white;font-size: 25px;">+</button>
+
+                    </div>
+             
+                    <button class="add-to-cart" style="background-color: #c4423e; color: white;" >+ THÊM VÀO GIỎ HÀNG</button>
+                    <div class="lienquan">
+                        <h4>SÁCH LIÊN QUAN</h4>
+                        <ul>
+                            <li class="lienquan1"><a href="">
+                                <ul class="nd-lq">
+                                <li><img id="anh1" src="	https://d3484gt1o8rlzm.cloudfront.net/mclass/course/CB2K8T10/CB2K8T10_1687925927.jpg" alt=""></li>
+                                <li style="padding-left: 25px;"><h2>COMBO SÁCH TOÁN THẦY LÂM - Khóa 2k7</h2>
+                                <p>Giảng viên: <a href=""><img id="poster1" src="https://d3484gt1o8rlzm.cloudfront.net/mclass/images/lecturers/GT1001.jpg?v=20220228140420" alt=""><strong>Trần Lâm</strong></a></p>  
+                                <span class=""><strike>400,000đ</strike>
+                                <span style="color:red; font-size: 10px;font-weight: 700;">1,600,000đ</span>
+                                </span></li>
+                            </ul>
+                            </a>
+                            </li>
+                            <li class="lienquan1"><a href="">
+                                <ul class="nd-lq">
+                                <li><img id="anh1" src="	https://d3484gt1o8rlzm.cloudfront.net/mclass/course/CB2K8T10/CB2K8T10_1687925927.jpg" alt=""></li>
+                                <li style="padding-left: 25px;"><h2>COMBO SÁCH TOÁN THẦY LÂM - Khóa 2k7</h2>
+                                <p>Giảng viên: <a href=""><img id="poster1" src="https://d3484gt1o8rlzm.cloudfront.net/mclass/images/lecturers/GT1001.jpg?v=20220228140420" alt=""><strong>Trần Lâm</strong></a></p>  
+                                <span class=""><strike>400,000đ</strike>
+                                <span style="color:red; font-size: 10px;font-weight: 700;">1,600,000đ</span>
+                                </span></li>
+                            </ul>
+                            </a>
+                            </li>
+                            <li class="lienquan1"><a href="">
+                                <ul class="nd-lq">
+                                <li><img id="anh1" src="	https://d3484gt1o8rlzm.cloudfront.net/mclass/course/CB2K8T10/CB2K8T10_1687925927.jpg" alt=""></li>
+                                <li style="padding-left: 25px;"><h2>COMBO SÁCH TOÁN THẦY LÂM - Khóa 2k7</h2>
+                                <p>Giảng viên: <a href=""><img id="poster1" src="https://d3484gt1o8rlzm.cloudfront.net/mclass/images/lecturers/GT1001.jpg?v=20220228140420" alt=""><strong>Trần Lâm</strong></a></p>  
+                                <span class=""><strike>400,000đ</strike>
+                                <span style="color:red; font-size: 10px;font-weight: 700;">1,600,000đ</span>
+                                </span></li>
+                            </ul>
+                            </a>
+                            </li>
+                            <li class="lienquan1"><a href="">
+                                <ul class="nd-lq">
+                                <li><img id="anh1" src="	https://d3484gt1o8rlzm.cloudfront.net/mclass/course/CB2K8T10/CB2K8T10_1687925927.jpg" alt=""></li>
+                                <li style="padding-left: 25px;"><h2>COMBO SÁCH TOÁN THẦY LÂM - Khóa 2k7</h2>
+                                <p>Giảng viên: <a href=""><img id="poster1" src="https://d3484gt1o8rlzm.cloudfront.net/mclass/images/lecturers/GT1001.jpg?v=20220228140420" alt=""><strong>Trần Lâm</strong></a></p>  
+                                <span class=""><strike>400,000đ</strike>
+                                <span style="color:red; font-size: 10px;font-weight: 700;">1,600,000đ</span>
+                                </span></li>
+                            </ul>
+                            </a>
+                            </li>
+                            <li class="lienquan1"><a href="">
+                                <ul class="nd-lq">
+                                <li><img id="anh1" src="	https://d3484gt1o8rlzm.cloudfront.net/mclass/course/CB2K8T10/CB2K8T10_1687925927.jpg" alt=""></li>
+                                <li style="padding-left: 25px;"><h2>COMBO SÁCH TOÁN THẦY LÂM - Khóa 2k7</h2>
+                                <p>Giảng viên: <a href=""><img id="poster1" src="https://d3484gt1o8rlzm.cloudfront.net/mclass/images/lecturers/GT1001.jpg?v=20220228140420" alt=""><strong>Trần Lâm</strong></a></p>  
+                                <span class=""><strike>400,000đ</strike>
+                                <span style="color:red; font-size: 10px;font-weight: 700;">1,600,000đ</span>
+                                </span></li>
+                            </ul>
+                            </a>
+                            </li>
+                            <li class="lienquan1"><a href="">
+                                <ul class="nd-lq">
+                                <li><img id="anh1" src="	https://d3484gt1o8rlzm.cloudfront.net/mclass/course/CB2K8T10/CB2K8T10_1687925927.jpg" alt=""></li>
+                                <li style="padding-left: 25px;"><h2>COMBO SÁCH TOÁN THẦY LÂM - Khóa 2k7</h2>
+                                <p>Giảng viên: <a href=""><img id="poster1" src="https://d3484gt1o8rlzm.cloudfront.net/mclass/images/lecturers/GT1001.jpg?v=20220228140420" alt=""><strong>Trần Lâm</strong></a></p>  
+                                <span class=""><strike>400,000đ</strike>
+                                <span style="color:red; font-size: 10px;font-weight: 700;">1,600,000đ</span>
+                                </span></li>
+                            </ul>
+                            </a>
+                            </li>
+                            <li class="lienquan1"><a href="">
+                                <ul class="nd-lq">
+                                <li><img id="anh1" src="	https://d3484gt1o8rlzm.cloudfront.net/mclass/course/CB2K8T10/CB2K8T10_1687925927.jpg" alt=""></li>
+                                <li style="padding-left: 25px;"><h2>COMBO SÁCH TOÁN THẦY LÂM - Khóa 2k7</h2>
+                                <p>Giảng viên: <a href=""><img id="poster1" src="https://d3484gt1o8rlzm.cloudfront.net/mclass/images/lecturers/GT1001.jpg?v=20220228140420" alt=""><strong>Trần Lâm</strong></a></p>  
+                                <span class=""><strike>400,000đ</strike>
+                                <span style="color:red; font-size: 10px;font-weight: 700;">1,600,000đ</span>
+                                </span></li>
+                            </ul>
+                            </a>
+                            </li>
+                            <li class="lienquan1"><a href="">
+                                <ul class="nd-lq">
+                                <li><img id="anh1" src="	https://d3484gt1o8rlzm.cloudfront.net/mclass/course/CB2K8T10/CB2K8T10_1687925927.jpg" alt=""></li>
+                                <li style="padding-left: 25px;"><h2>COMBO SÁCH TOÁN THẦY LÂM - Khóa 2k7</h2>
+                                <p>Giảng viên: <a href=""><img id="poster1" src="https://d3484gt1o8rlzm.cloudfront.net/mclass/images/lecturers/GT1001.jpg?v=20220228140420" alt=""><strong>Trần Lâm</strong></a></p>  
+                                <span class=""><strike>400,000đ</strike>
+                                <span style="color:red; font-size: 10px;font-weight: 700;">1,600,000đ</span>
+                                </span></li>
+                            </ul>
+                            </a>
+                            </li>
+                            <li class="lienquan1"><a href="">
+                                <ul class="nd-lq">
+                                <li><img id="anh1" src="	https://d3484gt1o8rlzm.cloudfront.net/mclass/course/CB2K8T10/CB2K8T10_1687925927.jpg" alt=""></li>
+                                <li style="padding-left: 25px;"><h2>COMBO SÁCH TOÁN THẦY LÂM - Khóa 2k7</h2>
+                                <p>Giảng viên: <a href=""><img id="poster1" src="https://d3484gt1o8rlzm.cloudfront.net/mclass/images/lecturers/GT1001.jpg?v=20220228140420" alt=""><strong>Trần Lâm</strong></a></p>  
+                                <span class=""><strike>400,000đ</strike>
+                                <span style="color:red; font-size: 10px;font-weight: 700;">1,600,000đ</span>
+                                </span></li>
+                            </ul>
+                            </a>
+                            </li>
+                            <li class="lienquan1"><a href="">
+                                <ul class="nd-lq">
+                                <li><img id="anh1" src="	https://d3484gt1o8rlzm.cloudfront.net/mclass/course/CB2K8T10/CB2K8T10_1687925927.jpg" alt=""></li>
+                                <li style="padding-left: 25px;"><h2>COMBO SÁCH TOÁN THẦY LÂM - Khóa 2k7</h2>
+                                <p>Giảng viên: <a href=""><img id="poster1" src="https://d3484gt1o8rlzm.cloudfront.net/mclass/images/lecturers/GT1001.jpg?v=20220228140420" alt=""><strong>Trần Lâm</strong></a></p>  
+                                <span class=""><strike>400,000đ</strike>
+                                <span style="color:red; font-size: 10px;font-weight: 700;">1,600,000đ</span>
+                                </span></li>
+                            </ul>
+                            </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+            
+   
+    </div>
+    <div class="row">
+        <div class="r1">
+        <h3><strong>CÔNG TY CỔ PHẦN GIÁO DỤC MCLASS VIỆT NAM</strong></h3>
+        <br><br>
+        <p>Địa chỉ ĐKKD: Số 9 Ngõ 80 Phố Trung Kính, Phường Yên Hoà, Quận Cầu Giấy, Thành phố Hà Nội, Việt Nam.</p>
+        <p> Mã số thuế: 0317485610</p>
+        <p> Hotline:<strong>099.752.8636</strong>- <strong>024.5678.0343</strong></p> 
+        <p> Email: sales@mclass.vnd</p>
+        </div>
+        <div class="r1">
+        <h3><strong>Hướng dẫn</strong></h3>
+        <br><br>
+        <p>Lộ trình Luyện thi THPT Quốc gia</p> 
+        <p>Hướng dẫn Học sinh</p> 
+        <p>Hướng dẫn Giáo viên</p> 
+        <p>Sách Luyện Thi</p> 
+        <p>Giới thiệu mclass</p> 
+        <p>Liên hệ</p> 
+        </div>
+        <div class="r1">
+        <h3><strong>Chính sách</strong></h3>
+        <br><br>
+        <p>Thông tin Sản phẩm – Dịch vụ do công ty cung cấp</p>
+        <p>Chính sách và quy định chung</p>
+        <p>Chính sách bảo mật</p>
+        <p>Chính sách vận chuyển</p>
+        <p>Chính sách hoàn trả</p>
+        <p>Điều khoản dịch vụ</p>
+        <p>Quy định và hình thức thanh toán</p>
+        <p>Quy định thảo luận</p></div>
+        </div>
+</div>
+</body>
+</html>

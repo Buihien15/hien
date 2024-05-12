@@ -1,0 +1,934 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<link rel="stylesheet" href="css.css">
+<style>
+    .containt{
+     display: flex;
+     padding-left: 45px;
+     padding-top:10px;
+     padding-bottom: 35px;
+     background-color: #ebeff9;}
+    .containt p{
+        font-size: 16px;
+        line-height: 36px;
+        border-radius: 10px 10px 0 0 ;
+        margin-bottom: 0;
+        background-color: #cbd5e3;
+        font-weight: 700;
+        padding-left: 1rem !important;
+
+    }
+    .menu-side{
+        border-radius: 10px 0 10px 0 ;
+        background: #f8f8f8;
+        width: 378px;
+    }
+    .menu-side li{
+    border-bottom: 1px solid #e8e8e8;
+    line-height: 44px;
+    height: 44px;
+    padding:0 1em;
+    width:auto; 
+    list-style-type: none;
+    }
+    .menu-side a {
+        text-decoration: none;
+        color: #142744;  
+        display:block;
+    }
+    .sub-menu-side ul li{position: relative;}
+    .sub-menu-side{
+    background-color: hsla(0, 0%, 100%, .97);
+    border-radius: 0 10px 10px 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,.05);
+    position: absolute;
+    left:423px;
+    top: 124px;
+    width: 950px;
+    display: none;
+    height:505px;
+    }
+    .sub-menu-side  a{
+        margin-left: 25px;
+        display:inline-block;}
+    .menu-side a:hover{
+       color: #007bff;
+       font-weight: 700;
+    }
+    .menu-side li:hover .sub-menu-side {
+        display: block;
+    }
+    .sub-menu-side a:hover{color:red;
+        font-weight: 700;
+        text-decoration:red;
+   }
+    .poster{display: flex;}
+    .poster img{
+        width:100%;
+        margin-top:38px;
+        margin-left: 25px;
+        margin-right: 0;
+        height: 400px;
+        border-radius: 10px 10px ;
+    }
+    .poster1 {
+        height: 400px;
+        border-radius: 10px 10px ;
+        width: 240px;
+        max-width: 100%;
+        background-color: white;
+        margin-top: 38px;
+        margin-left: 25px;    
+    }
+    .poster1 img{
+    height: 260px;
+    width: auto;
+    max-width: 100%;
+    border-radius: 10px 10px ;
+    margin: 15px;
+    }
+    .p1{
+        color: #c3423D;
+        font-weight:15px;
+        font-size: 18px;
+        margin-left: 59px;
+    }
+    .poster1 a{
+        text-decoration: none;
+        background-color: #0069d9;
+        border-color: #0062cc;
+        padding: 10px;
+        margin-left: 85px;
+        margin-bottom: 35px;
+        color: white;
+        border-radius: 10px 10px ;
+    }   
+    .select li{
+        list-style-type: none;
+        display: inline-block;
+        margin-left: 20px;
+        margin-top: 25px;
+       
+    }
+    .select img{
+        width: 290px;
+        height: 70px;
+    }
+    .containt-1{
+        margin: 45px;  
+        width:100%; 
+
+    }
+    .main-khoi{
+        background-color: #f6f6fc;
+    }
+    .head{
+        padding: 45px;
+    }
+    .head a{
+        border-left: 3px solid #007de7;
+        text-decoration: none;
+        color:#007de7;
+        font-size: 21px;
+        font-weight: 600;
+        padding-left: 29px;
+    }
+    .body img{
+        width: 320px;
+        height: 230px;
+    }
+    .body{
+        border: 1px solid rgb(239, 232, 232);
+        font-weight: 600;
+        height:auto;
+        display:inline-block;
+        overflow: hidden;
+        padding-bottom:-30px;
+        background-color: #fff;
+    }
+    .body h5{
+        font-size: 18px;
+        line-height: 22px;
+        height:60px;
+        margin-top: 15px;
+        padding-left: 10px;
+        }
+    .body a{
+        text-decoration: none;
+        color: black;
+    }
+    .text{
+    padding-left: 10px;
+    padding-bottom: 10px;
+    }
+    .giangvien a{
+        color: #007bff !important;
+    }
+    .chuyende-baihoc{
+        display: flex;
+        height:40px;
+       line-height: 35px;}
+    .baihoc{
+       margin-left: 106px;
+       color:#007bff ;
+    }
+    .chuyende{ color:#007bff;}
+    .body:hover{
+        box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+    }
+   
+</style>
+</head>
+<body>
+    <div id="main">
+        <div id="header">
+            <img src="https://mclass.vn/mclass/images/mclass_logo_land_trans_2023.png" alt="" style="width: 90px;height: 45px;">
+            <div class="header-menu">
+                <p id="course-books"><a href="">Khóa học & sách</a></p>
+                <ul class="sub-header-menu" >
+                    <li><a href="">KHÓA 2K6 - LUYỆN THI THPT QG 2024</a>
+                        <ul class="sub-header-menu1">
+                            <li>
+                           <a href="">LIVE C - Luyện Thi Chuyên Đề</a>
+                            <a href="">LIVE T - Luyện Đề</a>
+                            <a href="">LIVE G - Tổng Ôn</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">KHÓA ĐÁNH GIÁ NĂNG LỰC 2K6</a>
+                        <ul class="sub-header-menu1"><li>
+                            <a href="">Đánh giá năng lực ĐHQGHN</a>
+                            <a href="">Đánh giá năng lực ĐHQG TP Hồ Chí Minh</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Chinh Phục lớp 11</a>
+                        <ul class="sub-header-menu1"><li>
+                            <a href="">Toán - Thầy Trần Lâm</a>
+                            <a href="">Vật Lý - Thầy Kiêu</a>
+                            <a href="">Hóa - Thầy Ngọc</a>
+                            <a href="">Ngữ Văn - Cố Bình</a>
+                            <a href="">Toán - Thầy Hồ Đức Thuận</a>
+                            <a href="">Vật Lý - Thầy Vũ Tuấn Anh</a>
+                            <a href="">Hóa -  thầy Phạm Văn Thuận</a></li>
+                        </ul></li>
+                        <li><a href="">Chinh Phục lớp 10</a>
+                        <ul class="sub-header-menu1"><li>
+                           <a href="">Toán</a>
+                           <a href="">Ngữ Văn - Cô Bình</a>
+                           <a href="">Hóa Học - Cô Hằng</a></li>
+                        </ul></li>
+                        <li><a href="">Bậc Đại Học</a>
+                        <ul class="sub-header-menu1"><li>
+                            <a href="">PRE TOEIC</a>
+                            <a href="">VẬT LÝ ĐẠI CƯƠNG</a>
+                            <a href="">TOÁN CAO CẤP</a></li>
+                        </ul></li>
+                        <li><a href="">IELTS</a>
+                        <ul class="sub-header-menu1"><li>
+                            <a href="">Khóa LIVE</a>
+                            <a href="">Khóa IELTS CLC</a></li>
+                        </ul></li>
+                </ul>
+            </div>
+            <div class="search-container">
+                <input type="text" placeholder="Tìm kiếm khóa học">
+                <button type="submit">
+                    <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/>
+                    </svg>
+                </button>
+            </div>
+            <div class="button">
+            <button class="login-button">Đăng nhập</button>
+            <button class="register-button">Đăng ký</button></div>
+        </div>
+    <div class="containt">
+        <ul class="menu-side">
+            <p>Danh mục</p>
+            <li><a href="">KHOA 2K6 - LUYỆN THI THPT QG 2024</a>
+                <ul class="sub-menu-side">
+                <li><strong>KHOA 2K6 - LUYỆN THI THPT QG 2024</strong></li>
+                    <a href="">LIVE C - Luyện Thi Chuyên Đề</a>
+                    <a href="">LIVE T - Luyện Đề</a>
+                    <a href="">LIVE G - Tổng Ôn</a>
+                </ul></li>
+            <li><a href="">KHOA ĐÁNH GIÁ NĂNG LỰC 2K6</a>
+                <ul class="sub-menu-side">
+                    <li><strong>KHOA ĐÁNH GIÁ NĂNG LỰC 2K6</strong></li>
+                   <a href="">Đánh giá năng lực ĐHQGHN</a>
+                   <a href="">Đánh giá năng lực ĐHQG TP Hồ Chí Minh</a>
+                </ul>
+            </li>
+            <li><a href="">Chinh Phục Lớp 11</a>
+                <ul class="sub-menu-side">
+                    <li><strong>Chinh Phục Lớp 11</strong></li>
+                    <a href="">Toán - Thầy Trần Lâm</a>
+                    <a href="">Vật Lý - Thầy Kiêu</a>
+                    <a href="">Hóa - Thầy Ngọc</a>
+                    <a href="">Ngữ Văn - Cố Bình</a>
+                    <a href="">Toán - Thầy Hồ Đức Thuận</a>
+                    <a href="">Vật Lý - Thầy Vũ Tuấn Anh</a>
+                    <a href="">Hóa -  thầy Phạm Văn Thuận</a>
+                </ul>
+            </li>
+            <li><a href="">Chinh Phục Lớp 10</a>
+                    <ul class="sub-menu-side">
+                        <li><strong>Chinh Phục Lớp 10</strong></li>
+                        <a href="">Toán</a>
+                        <a href="">Ngữ Văn - Cô Bình</a>
+                        <a href="">Hóa Học - Cô Hằng</a>
+                    </ul>
+            </li>
+            <li><a href="">BẬC ĐẠI HỌC</a>
+                <ul class="sub-menu-side">
+                    <li><strong>BẬC ĐẠI HỌC</strong></li>
+                   <a href="">PRE TOEIC</a>
+                   <a href="">VẬT LÝ ĐẠI CƯƠNG</a>
+                   <a href="">TOÁN CAO CẤP</a>
+                </ul>
+            </li>
+            <li><a href="">IELTS</a>
+                <ul class="sub-menu-side">
+                    <li><strong>IELTS</strong></li>
+                   <a href="">Khóa LIVE</a>
+                   <a href="">KHóa IELTS CLC</a>
+                </ul></li>
+        </ul>
+        <div class="main-poster">
+        <div class="poster">
+            <a href=""><img src="https://cdn.mclass.vn/blog/uploads/2024/03/11111621/Khai-giang-Khoa-Luyen-thi-TN-THPT-2025-danh-cho-2K7.jpg" style="height:400px;width:650px ;" alt=""></a>
+         <div class="poster1"><img src="https://cdn.mclass.vn/blog/uploads/2023/11/17112153/Banner-website-doc.jpg" alt="">
+         <span class="p1"><strong>Bảng vinh danh</strong></span><br>
+          <span style="font-family:Poppins, Roboto, Helvetica, Arial, sans-serif;margin-left: 15px;">"Khảo sát chất lượng tháng 9"</span>
+         <br><br><a href="">Chi tiết</a>
+         </div> </div>
+        <ul class="select">
+            <li><a href=""><img src="https://cdn.mclass.vn/blog/uploads/2022/04/21021448/big-btn-luyen-de-min.png" alt=""></a></li>
+            <li><a href=""><img src="https://cdn.mclass.vn/blog/uploads/2022/04/21021448/big-btn-tai-lieu-min.png" alt=""></a></li>
+            <li><a href=""><img src="https://cdn.mclass.vn/blog/uploads/2022/04/21021448/big-btn-tai-lieu-min.png" alt=""></a></li>
+        </ul>
+    </div>
+        </div> 
+    <div class="main-khoi">
+    <div class="khoi">
+        <h3 class="head"><a href="">Trung Học Phổ Thông</a></h3>
+    <div class="maint-containt-1">
+    <div class="containt-1">
+     <div class="body">
+       <a href=""> <img src="https://d3484gt1o8rlzm.cloudfront.net/mclass/course/G2K6G01/G2K6G01_1676286538.jpg" alt=""></a>
+       <h5><a href=""> LIVE G -Tổng ôn - Toán học 2K6 - HTT</a></h5>
+       <div class="text">
+        <div class="giangvien">Giảng Viên: 
+            <a href=""> Hồ Thức Thuận</a>
+        </div>
+        <div class="chuyende-baihoc">
+        <div>
+        <span class="chuyende">5 </span>Chuyên đề
+        </div>
+        <div>
+        <span class="baihoc">12 </span>Bài Học
+        </div>
+        </div>
+       </div>
+      </div>
+      <div class="body">
+        <a href=""> <img src="https://d3484gt1o8rlzm.cloudfront.net/mclass/course/G2K6G01/G2K6G01_1676286538.jpg" alt=""></a>
+        <h5><a href=""> LIVE G -Tổng ôn - Toán học 2K6 - HTT</a></h5>
+        <div class="text">
+         <div class="giangvien">Giảng Viên: 
+             <a href=""> Hồ Thức Thuận</a>
+         </div>
+         <div class="chuyende-baihoc">
+         <div>
+         <span class="chuyende">5 </span>Chuyên đề
+         </div>
+         <div>
+         <span class="baihoc">12 </span>Bài Học
+         </div>
+         </div>
+        </div>
+       </div>
+       <div class="body">
+        <a href=""> <img src="https://d3484gt1o8rlzm.cloudfront.net/mclass/course/G2K6G01/G2K6G01_1676286538.jpg" alt=""></a>
+        <h5><a href=""> LIVE G -Tổng ôn - Toán học 2K6 - HTT</a></h5>
+        <div class="text">
+         <div class="giangvien">Giảng Viên: 
+             <a href=""> Hồ Thức Thuận</a>
+         </div>
+         <div class="chuyende-baihoc">
+         <div>
+         <span class="chuyende">5 </span>Chuyên đề
+         </div>
+         <div>
+         <span class="baihoc">12 </span>Bài Học
+         </div>
+         </div>
+        </div>
+       </div>
+       <div class="body">
+        <a href=""> <img src="https://d3484gt1o8rlzm.cloudfront.net/mclass/course/G2K6G01/G2K6G01_1676286538.jpg" alt=""></a>
+        <h5><a href=""> LIVE G -Tổng ôn - Toán học 2K6 - HTT</a></h5>
+        <div class="text">
+         <div class="giangvien">Giảng Viên: 
+             <a href=""> Hồ Thức Thuận</a>
+         </div>
+         <div class="chuyende-baihoc">
+         <div>
+         <span class="chuyende">5 </span>Chuyên đề
+         </div>
+         <div>
+         <span class="baihoc">12 </span>Bài Học
+         </div>
+         </div>
+        </div>
+       </div>
+    </div>
+    <div class="containt-1">
+        <div class="body">
+          <a href=""> <img src="https://d3484gt1o8rlzm.cloudfront.net/mclass/course/G2K6G01/G2K6G01_1676286538.jpg" alt=""></a>
+          <h5><a href=""> LIVE G -Tổng ôn - Toán học 2K6 - HTT</a></h5>
+          <div class="text">
+           <div class="giangvien">Giảng Viên: 
+               <a href=""> Hồ Thức Thuận</a>
+           </div>
+           <div class="chuyende-baihoc">
+           <div>
+           <span class="chuyende">5 </span>Chuyên đề
+           </div>
+           <div>
+           <span class="baihoc">12 </span>Bài Học
+           </div>
+           </div>
+          </div>
+         </div>
+         <div class="body">
+           <a href=""> <img src="https://d3484gt1o8rlzm.cloudfront.net/mclass/course/G2K6G01/G2K6G01_1676286538.jpg" alt=""></a>
+           <h5><a href=""> LIVE G -Tổng ôn - Toán học 2K6 - HTT</a></h5>
+           <div class="text">
+            <div class="giangvien">Giảng Viên: 
+                <a href=""> Hồ Thức Thuận</a>
+            </div>
+            <div class="chuyende-baihoc">
+            <div>
+            <span class="chuyende">5 </span>Chuyên đề
+            </div>
+            <div>
+            <span class="baihoc">12 </span>Bài Học
+            </div>
+            </div>
+           </div>
+          </div>
+          <div class="body">
+           <a href=""> <img src="https://d3484gt1o8rlzm.cloudfront.net/mclass/course/G2K6G01/G2K6G01_1676286538.jpg" alt=""></a>
+           <h5><a href=""> LIVE G -Tổng ôn - Toán học 2K6 - HTT</a></h5>
+           <div class="text">
+            <div class="giangvien">Giảng Viên: 
+                <a href=""> Hồ Thức Thuận</a>
+            </div>
+            <div class="chuyende-baihoc">
+            <div>
+            <span class="chuyende">5 </span>Chuyên đề
+            </div>
+            <div>
+            <span class="baihoc">12 </span>Bài Học
+            </div>
+            </div>
+           </div>
+          </div>
+          <div class="body">
+           <a href=""> <img src="https://d3484gt1o8rlzm.cloudfront.net/mclass/course/G2K6G01/G2K6G01_1676286538.jpg" alt=""></a>
+           <h5><a href=""> LIVE G -Tổng ôn - Toán học 2K6 - HTT</a></h5>
+           <div class="text">
+            <div class="giangvien">Giảng Viên: 
+                <a href=""> Hồ Thức Thuận</a>
+            </div>
+            <div class="chuyende-baihoc">
+            <div>
+            <span class="chuyende">5 </span>Chuyên đề
+            </div>
+            <div>
+            <span class="baihoc">12 </span>Bài Học
+            </div>
+            </div>
+           </div>
+          </div>
+     </div>
+    </div>
+   </div><br><br>
+   <div class="khoi">
+    <h3 class="head"><a href="">Lớp 11</a></h3>
+<div class="maint-containt-1">
+<div class="containt-1">
+ <div class="body">
+   <a href=""> <img src="https://d3484gt1o8rlzm.cloudfront.net/mclass/course/G2K6G01/G2K6G01_1676286538.jpg" alt=""></a>
+   <h5><a href=""> LIVE G -Tổng ôn - Toán học 2K6 - HTT</a></h5>
+   <div class="text">
+    <div class="giangvien">Giảng Viên: 
+        <a href=""> Hồ Thức Thuận</a>
+    </div>
+    <div class="chuyende-baihoc">
+    <div>
+    <span class="chuyende">5 </span>Chuyên đề
+    </div>
+    <div>
+    <span class="baihoc">12 </span>Bài Học
+    </div>
+    </div>
+   </div>
+  </div>
+  <div class="body">
+    <a href=""> <img src="https://d3484gt1o8rlzm.cloudfront.net/mclass/course/G2K6G01/G2K6G01_1676286538.jpg" alt=""></a>
+    <h5><a href=""> LIVE G -Tổng ôn - Toán học 2K6 - HTT</a></h5>
+    <div class="text">
+     <div class="giangvien">Giảng Viên: 
+         <a href=""> Hồ Thức Thuận</a>
+     </div>
+     <div class="chuyende-baihoc">
+     <div>
+     <span class="chuyende">5 </span>Chuyên đề
+     </div>
+     <div>
+     <span class="baihoc">12 </span>Bài Học
+     </div>
+     </div>
+    </div>
+   </div>
+   <div class="body">
+    <a href=""> <img src="https://d3484gt1o8rlzm.cloudfront.net/mclass/course/G2K6G01/G2K6G01_1676286538.jpg" alt=""></a>
+    <h5><a href=""> LIVE G -Tổng ôn - Toán học 2K6 - HTT</a></h5>
+    <div class="text">
+     <div class="giangvien">Giảng Viên: 
+         <a href=""> Hồ Thức Thuận</a>
+     </div>
+     <div class="chuyende-baihoc">
+     <div>
+     <span class="chuyende">5 </span>Chuyên đề
+     </div>
+     <div>
+     <span class="baihoc">12 </span>Bài Học
+     </div>
+     </div>
+    </div>
+   </div>
+   <div class="body">
+    <a href=""> <img src="https://d3484gt1o8rlzm.cloudfront.net/mclass/course/G2K6G01/G2K6G01_1676286538.jpg" alt=""></a>
+    <h5><a href=""> LIVE G -Tổng ôn - Toán học 2K6 - HTT</a></h5>
+    <div class="text">
+     <div class="giangvien">Giảng Viên: 
+         <a href=""> Hồ Thức Thuận</a>
+     </div>
+     <div class="chuyende-baihoc">
+     <div>
+     <span class="chuyende">5 </span>Chuyên đề
+     </div>
+     <div>
+     <span class="baihoc">12 </span>Bài Học
+     </div>
+     </div>
+    </div>
+   </div>
+</div>
+<div class="containt-1">
+    <div class="body">
+      <a href=""> <img src="https://d3484gt1o8rlzm.cloudfront.net/mclass/course/G2K6G01/G2K6G01_1676286538.jpg" alt=""></a>
+      <h5><a href=""> LIVE G -Tổng ôn - Toán học 2K6 - HTT</a></h5>
+      <div class="text">
+       <div class="giangvien">Giảng Viên: 
+           <a href=""> Hồ Thức Thuận</a>
+       </div>
+       <div class="chuyende-baihoc">
+       <div>
+       <span class="chuyende">5 </span>Chuyên đề
+       </div>
+       <div>
+       <span class="baihoc">12 </span>Bài Học
+       </div>
+       </div>
+      </div>
+     </div>
+     <div class="body">
+       <a href=""> <img src="https://d3484gt1o8rlzm.cloudfront.net/mclass/course/G2K6G01/G2K6G01_1676286538.jpg" alt=""></a>
+       <h5><a href=""> LIVE G -Tổng ôn - Toán học 2K6 - HTT</a></h5>
+       <div class="text">
+        <div class="giangvien">Giảng Viên: 
+            <a href=""> Hồ Thức Thuận</a>
+        </div>
+        <div class="chuyende-baihoc">
+        <div>
+        <span class="chuyende">5 </span>Chuyên đề
+        </div>
+        <div>
+        <span class="baihoc">12 </span>Bài Học
+        </div>
+        </div>
+       </div>
+      </div>
+      <div class="body">
+       <a href=""> <img src="https://d3484gt1o8rlzm.cloudfront.net/mclass/course/G2K6G01/G2K6G01_1676286538.jpg" alt=""></a>
+       <h5><a href=""> LIVE G -Tổng ôn - Toán học 2K6 - HTT</a></h5>
+       <div class="text">
+        <div class="giangvien">Giảng Viên: 
+            <a href=""> Hồ Thức Thuận</a>
+        </div>
+        <div class="chuyende-baihoc">
+        <div>
+        <span class="chuyende">5 </span>Chuyên đề
+        </div>
+        <div>
+        <span class="baihoc">12 </span>Bài Học
+        </div>
+        </div>
+       </div>
+      </div>
+      <div class="body">
+       <a href=""> <img src="https://d3484gt1o8rlzm.cloudfront.net/mclass/course/G2K6G01/G2K6G01_1676286538.jpg" alt=""></a>
+       <h5><a href=""> LIVE G -Tổng ôn - Toán học 2K6 - HTT</a></h5>
+       <div class="text">
+        <div class="giangvien">Giảng Viên: 
+            <a href=""> Hồ Thức Thuận</a>
+        </div>
+        <div class="chuyende-baihoc">
+        <div>
+        <span class="chuyende">5 </span>Chuyên đề
+        </div>
+        <div>
+        <span class="baihoc">12 </span>Bài Học
+        </div>
+        </div>
+       </div>
+      </div>
+ </div>
+</div>
+</div><br><br>
+   <div class="khoi">
+    <h3 class="head"><a href="">Lớp 10</a></h3>
+<div class="maint-containt-1">
+<div class="containt-1">
+ <div class="body">
+   <a href=""> <img src="https://d3484gt1o8rlzm.cloudfront.net/mclass/course/G2K6G01/G2K6G01_1676286538.jpg" alt=""></a>
+   <h5><a href=""> LIVE G -Tổng ôn - Toán học 2K6 - HTT</a></h5>
+   <div class="text">
+    <div class="giangvien">Giảng Viên: 
+        <a href=""> Hồ Thức Thuận</a>
+    </div>
+    <div class="chuyende-baihoc">
+    <div>
+    <span class="chuyende">5 </span>Chuyên đề
+    </div>
+    <div>
+    <span class="baihoc">12 </span>Bài Học
+    </div>
+    </div>
+   </div>
+  </div>
+  <div class="body">
+    <a href=""> <img src="https://d3484gt1o8rlzm.cloudfront.net/mclass/course/G2K6G01/G2K6G01_1676286538.jpg" alt=""></a>
+    <h5><a href=""> LIVE G -Tổng ôn - Toán học 2K6 - HTT</a></h5>
+    <div class="text">
+     <div class="giangvien">Giảng Viên: 
+         <a href=""> Hồ Thức Thuận</a>
+     </div>
+     <div class="chuyende-baihoc">
+     <div>
+     <span class="chuyende">5 </span>Chuyên đề
+     </div>
+     <div>
+     <span class="baihoc">12 </span>Bài Học
+     </div>
+     </div>
+    </div>
+   </div>
+   <div class="body">
+    <a href=""> <img src="https://d3484gt1o8rlzm.cloudfront.net/mclass/course/G2K6G01/G2K6G01_1676286538.jpg" alt=""></a>
+    <h5><a href=""> LIVE G -Tổng ôn - Toán học 2K6 - HTT</a></h5>
+    <div class="text">
+     <div class="giangvien">Giảng Viên: 
+         <a href=""> Hồ Thức Thuận</a>
+     </div>
+     <div class="chuyende-baihoc">
+     <div>
+     <span class="chuyende">5 </span>Chuyên đề
+     </div>
+     <div>
+     <span class="baihoc">12 </span>Bài Học
+     </div>
+     </div>
+    </div>
+   </div>
+   <div class="body">
+    <a href=""> <img src="https://d3484gt1o8rlzm.cloudfront.net/mclass/course/G2K6G01/G2K6G01_1676286538.jpg" alt=""></a>
+    <h5><a href=""> LIVE G -Tổng ôn - Toán học 2K6 - HTT</a></h5>
+    <div class="text">
+     <div class="giangvien">Giảng Viên: 
+         <a href=""> Hồ Thức Thuận</a>
+     </div>
+     <div class="chuyende-baihoc">
+     <div>
+     <span class="chuyende">5 </span>Chuyên đề
+     </div>
+     <div>
+     <span class="baihoc">12 </span>Bài Học
+     </div>
+     </div>
+    </div>
+   </div>
+</div>
+<div class="containt-1">
+    <div class="body">
+      <a href=""> <img src="https://d3484gt1o8rlzm.cloudfront.net/mclass/course/G2K6G01/G2K6G01_1676286538.jpg" alt=""></a>
+      <h5><a href=""> LIVE G -Tổng ôn - Toán học 2K6 - HTT</a></h5>
+      <div class="text">
+       <div class="giangvien">Giảng Viên: 
+           <a href=""> Hồ Thức Thuận</a>
+       </div>
+       <div class="chuyende-baihoc">
+       <div>
+       <span class="chuyende">5 </span>Chuyên đề
+       </div>
+       <div>
+       <span class="baihoc">12 </span>Bài Học
+       </div>
+       </div>
+      </div>
+     </div>
+     <div class="body">
+       <a href=""> <img src="https://d3484gt1o8rlzm.cloudfront.net/mclass/course/G2K6G01/G2K6G01_1676286538.jpg" alt=""></a>
+       <h5><a href=""> LIVE G -Tổng ôn - Toán học 2K6 - HTT</a></h5>
+       <div class="text">
+        <div class="giangvien">Giảng Viên: 
+            <a href=""> Hồ Thức Thuận</a>
+        </div>
+        <div class="chuyende-baihoc">
+        <div>
+        <span class="chuyende">5 </span>Chuyên đề
+        </div>
+        <div>
+        <span class="baihoc">12 </span>Bài Học
+        </div>
+        </div>
+       </div>
+      </div>
+      <div class="body">
+       <a href=""> <img src="https://d3484gt1o8rlzm.cloudfront.net/mclass/course/G2K6G01/G2K6G01_1676286538.jpg" alt=""></a>
+       <h5><a href=""> LIVE G -Tổng ôn - Toán học 2K6 - HTT</a></h5>
+       <div class="text">
+        <div class="giangvien">Giảng Viên: 
+            <a href=""> Hồ Thức Thuận</a>
+        </div>
+        <div class="chuyende-baihoc">
+        <div>
+        <span class="chuyende">5 </span>Chuyên đề
+        </div>
+        <div>
+        <span class="baihoc">12 </span>Bài Học
+        </div>
+        </div>
+       </div>
+      </div>
+      <div class="body">
+       <a href=""> <img src="https://d3484gt1o8rlzm.cloudfront.net/mclass/course/G2K6G01/G2K6G01_1676286538.jpg" alt=""></a>
+       <h5><a href=""> LIVE G -Tổng ôn - Toán học 2K6 - HTT</a></h5>
+       <div class="text">
+        <div class="giangvien">Giảng Viên: 
+            <a href=""> Hồ Thức Thuận</a>
+        </div>
+        <div class="chuyende-baihoc">
+        <div>
+        <span class="chuyende">5 </span>Chuyên đề
+        </div>
+        <div>
+        <span class="baihoc">12 </span>Bài Học
+        </div>
+        </div>
+       </div>
+      </div>
+ </div>
+</div>
+</div><br><br>
+<div class="khoi">
+    <h3 class="head"><a href="">Đại học</a></h3>
+<div class="maint-containt-1">
+<div class="containt-1">
+ <div class="body">
+   <a href=""> <img src="https://d3484gt1o8rlzm.cloudfront.net/mclass/course/G2K6G01/G2K6G01_1676286538.jpg" alt=""></a>
+   <h5><a href=""> LIVE G -Tổng ôn - Toán học 2K6 - HTT</a></h5>
+   <div class="text">
+    <div class="giangvien">Giảng Viên: 
+        <a href=""> Hồ Thức Thuận</a>
+    </div>
+    <div class="chuyende-baihoc">
+    <div>
+    <span class="chuyende">5 </span>Chuyên đề
+    </div>
+    <div>
+    <span class="baihoc">12 </span>Bài Học
+    </div>
+    </div>
+   </div>
+  </div>
+  <div class="body">
+    <a href=""> <img src="https://d3484gt1o8rlzm.cloudfront.net/mclass/course/G2K6G01/G2K6G01_1676286538.jpg" alt=""></a>
+    <h5><a href=""> LIVE G -Tổng ôn - Toán học 2K6 - HTT</a></h5>
+    <div class="text">
+     <div class="giangvien">Giảng Viên: 
+         <a href=""> Hồ Thức Thuận</a>
+     </div>
+     <div class="chuyende-baihoc">
+     <div>
+     <span class="chuyende">5 </span>Chuyên đề
+     </div>
+     <div>
+     <span class="baihoc">12 </span>Bài Học
+     </div>
+     </div>
+    </div>
+   </div>
+   <div class="body">
+    <a href=""> <img src="https://d3484gt1o8rlzm.cloudfront.net/mclass/course/G2K6G01/G2K6G01_1676286538.jpg" alt=""></a>
+    <h5><a href=""> LIVE G -Tổng ôn - Toán học 2K6 - HTT</a></h5>
+    <div class="text">
+     <div class="giangvien">Giảng Viên: 
+         <a href=""> Hồ Thức Thuận</a>
+     </div>
+     <div class="chuyende-baihoc">
+     <div>
+     <span class="chuyende">5 </span>Chuyên đề
+     </div>
+     <div>
+     <span class="baihoc">12 </span>Bài Học
+     </div>
+     </div>
+    </div>
+   </div>
+   <div class="body">
+    <a href=""> <img src="https://d3484gt1o8rlzm.cloudfront.net/mclass/course/G2K6G01/G2K6G01_1676286538.jpg" alt=""></a>
+    <h5><a href=""> LIVE G -Tổng ôn - Toán học 2K6 - HTT</a></h5>
+    <div class="text">
+     <div class="giangvien">Giảng Viên: 
+         <a href=""> Hồ Thức Thuận</a>
+     </div>
+     <div class="chuyende-baihoc">
+     <div>
+     <span class="chuyende">5 </span>Chuyên đề
+     </div>
+     <div>
+     <span class="baihoc">12 </span>Bài Học
+     </div>
+     </div>
+    </div>
+   </div>
+</div>
+<div class="containt-1">
+    <div class="body">
+      <a href=""> <img src="https://d3484gt1o8rlzm.cloudfront.net/mclass/course/G2K6G01/G2K6G01_1676286538.jpg" alt=""></a>
+      <h5><a href=""> LIVE G -Tổng ôn - Toán học 2K6 - HTT</a></h5>
+      <div class="text">
+       <div class="giangvien">Giảng Viên: 
+           <a href=""> Hồ Thức Thuận</a>
+       </div>
+       <div class="chuyende-baihoc">
+       <div>
+       <span class="chuyende">5 </span>Chuyên đề
+       </div>
+       <div>
+       <span class="baihoc">12 </span>Bài Học
+       </div>
+       </div>
+      </div>
+     </div>
+     <div class="body">
+       <a href=""> <img src="https://d3484gt1o8rlzm.cloudfront.net/mclass/course/G2K6G01/G2K6G01_1676286538.jpg" alt=""></a>
+       <h5><a href=""> LIVE G -Tổng ôn - Toán học 2K6 - HTT</a></h5>
+       <div class="text">
+        <div class="giangvien">Giảng Viên: 
+            <a href=""> Hồ Thức Thuận</a>
+        </div>
+        <div class="chuyende-baihoc">
+        <div>
+        <span class="chuyende">5 </span>Chuyên đề
+        </div>
+        <div>
+        <span class="baihoc">12 </span>Bài Học
+        </div>
+        </div>
+       </div>
+      </div>
+      <div class="body">
+       <a href=""> <img src="https://d3484gt1o8rlzm.cloudfront.net/mclass/course/G2K6G01/G2K6G01_1676286538.jpg" alt=""></a>
+       <h5><a href=""> LIVE G -Tổng ôn - Toán học 2K6 - HTT</a></h5>
+       <div class="text">
+        <div class="giangvien">Giảng Viên: 
+            <a href=""> Hồ Thức Thuận</a>
+        </div>
+        <div class="chuyende-baihoc">
+        <div>
+        <span class="chuyende">5 </span>Chuyên đề
+        </div>
+        <div>
+        <span class="baihoc">12 </span>Bài Học
+        </div>
+        </div>
+       </div>
+      </div>
+      <div class="body">
+       <a href=""> <img src="https://d3484gt1o8rlzm.cloudfront.net/mclass/course/G2K6G01/G2K6G01_1676286538.jpg" alt=""></a>
+       <h5><a href=""> LIVE G -Tổng ôn - Toán học 2K6 - HTT</a></h5>
+       <div class="text">
+        <div class="giangvien">Giảng Viên: 
+            <a href=""> Hồ Thức Thuận</a>
+        </div>
+        <div class="chuyende-baihoc">
+        <div>
+        <span class="chuyende">5 </span>Chuyên đề
+        </div>
+        <div>
+        <span class="baihoc">12 </span>Bài Học
+        </div>
+        </div>
+       </div>
+      </div>
+ </div>
+</div>
+</div><br><br>
+<br></div>
+<div class="footer-wrap ">
+    <div class="container footer-content">
+    <div class="row">
+    <div class="r1">
+    <h3><strong>CÔNG TY CỔ PHẦN GIÁO DỤC MCLASS VIỆT NAM</strong></h3>
+    <br><br>
+    <p>Địa chỉ ĐKKD: Số 9 Ngõ 80 Phố Trung Kính, Phường Yên Hoà, Quận Cầu Giấy, Thành phố Hà Nội, Việt Nam.</p>
+    <p> Mã số thuế: 0317485610</p>
+    <p> Hotline:<strong>099.752.8636</strong>- <strong>024.5678.0343</strong></p> 
+    <p> Email: sales@mclass.vnd</p>
+    </div>
+    <div class="r1">
+    <h3><strong>Hướng dẫn</strong></h3>
+    <br><br>
+    <p>Lộ trình Luyện thi THPT Quốc gia</p> 
+    <p>Hướng dẫn Học sinh</p> 
+    <p>Hướng dẫn Giáo viên</p> 
+    <p>Sách Luyện Thi</p> 
+    <p>Giới thiệu mclass</p> 
+    <p>Liên hệ</p> 
+    </div>
+    <div class="r1">
+    <h3><strong>Chính sách</strong></h3>
+    <br><br>
+    <p>Thông tin Sản phẩm – Dịch vụ do công ty cung cấp</p>
+    <p>Chính sách và quy định chung</p>
+    <p>Chính sách bảo mật</p>
+    <p>Chính sách vận chuyển</p>
+    <p>Chính sách hoàn trả</p>
+    <p>Điều khoản dịch vụ</p>
+    <p>Quy định và hình thức thanh toán</p>
+    <p>Quy định thảo luận</p></div></div></div>
+    </div>
+    </div>
+</body>
+</html>
+
+   
