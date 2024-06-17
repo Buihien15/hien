@@ -1,9 +1,27 @@
-<mxfile host="app.diagrams.net" modified="2024-06-17T08:26:55.762Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" version="24.5.4" etag="2yxp3DE8IAxdCFt4Quni" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-17T08:35:21.419Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="gT8DQY7ktjLAMh0Tfa-m" version="24.5.4" type="github">
   <diagram name="Page-1" id="yVQG-I970VChFgD-Ut2g">
-    <mxGraphModel>
+    <mxGraphModel dx="1032" dy="689" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="UMiJZRXXGaOtGqzTmupt-1" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.browserWindow;rSize=0;strokeColor=#666666;strokeColor2=#008cff;strokeColor3=#c4c4c4;mainText=,;recursiveResize=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="560" width="550" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="UMiJZRXXGaOtGqzTmupt-2" value="Page 1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;fontSize=17;fontColor=#666666;align=left;whiteSpace=wrap;" vertex="1" parent="UMiJZRXXGaOtGqzTmupt-1">
+          <mxGeometry x="60" y="12" width="110" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="UMiJZRXXGaOtGqzTmupt-3" value="https://www.draw.io" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;rSize=0;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="UMiJZRXXGaOtGqzTmupt-1">
+          <mxGeometry x="130" y="60" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="UMiJZRXXGaOtGqzTmupt-4" value="nhập tên điện thoại, máy tính, phụ kiện ... cần tìm" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.searchBox;strokeColor=#999999;mainText=;strokeColor2=#008cff;fontColor=#666666;fontSize=17;align=left;spacingLeft=3;whiteSpace=wrap;" vertex="1" parent="UMiJZRXXGaOtGqzTmupt-1">
+          <mxGeometry x="30" y="120" width="410" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UMiJZRXXGaOtGqzTmupt-5" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.misc.shoppingCart;strokeColor=#999999;" vertex="1" parent="UMiJZRXXGaOtGqzTmupt-1">
+          <mxGeometry x="510" y="120" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UMiJZRXXGaOtGqzTmupt-6" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.user;" vertex="1" parent="UMiJZRXXGaOtGqzTmupt-1">
+          <mxGeometry x="460" y="120" width="30" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
